@@ -1,5 +1,10 @@
 #PROYECTO ANIMACIONES
 
+# DEPLOY
+
+[https://css-minigame-1.netlify.app/](https://css-minigame-1.netlify.app/)
+
+
 #Screenshots
 <br>
 <div style="text-align:center;">
