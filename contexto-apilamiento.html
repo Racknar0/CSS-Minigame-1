@@ -179,7 +179,27 @@
       height: 4px;
       position: absolute;
       top: 15px;
+
+      animation: eye-blink;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
     }
+
+    @keyframes eye-blink {
+      0% {
+        height: 4px;
+      }
+      5% {
+        transform: translate(0px, 2px);
+        height: 1px;
+      }
+      10% {
+        transform: translate(0px, 0px);
+        height: 4px;
+      }
+    }
+
+
     .head__eye--left {
       left: 30px;
     }
